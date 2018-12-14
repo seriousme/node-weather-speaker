@@ -4,7 +4,7 @@ const db = new PouchDB("http://raspiw:5984/weatherdb");
 
 const firestore = new Firestore({
   projectId: "weatherstation-540a8",
-  keyFilename: "./.weatherStation-project.json"
+  keyFilename: `${__dirname}/.weatherStation-project.json`
 });
 const settings = { timestampsInSnapshots: true };
 firestore.settings(settings);

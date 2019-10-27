@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@google-cloud/firestore": "^2.2.1",
+    "@google-cloud/firestore": "^2.5.0",
     "pouchdb": "^7.1.1"
   }
 }
